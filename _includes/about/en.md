@@ -1,33 +1,49 @@
-Hi, I am _@huxpro_ (Huang, Xuan), an UI/Frontend engineer & designer, accidentally growing into a compiler hacker. My current interests range from programming languages theory and implementation in general (compiler, type system, type-based formal verification, virtual machine, runtime systems, garbage collection) to software engineering in the tech industry (client-side web/mobile app development, server-side backend, user interface and UX, developer infrastructure and DX). 
 
-I'm currently working on the [Hermes JavaScript Engine](https://hermesengine.dev/) at [Facebook](http://facebook.com/). I was also involved in some of the [Facebook Reality Labs](https://tech.fb.com/ar-vr/) and the [ReasonML](https://reasonml.github.io/) (now [ReScript](https://rescript-lang.org/)) efforts. I'm also passionated about [React](https://reactjs.org/) and [React Native](https://reactnative.dev/). 
+**WEB-APPLICATION** ENGINEER IN REPUBLIC OF KOREA.
 
-In the past, I worked on [Alitrip (Fliggy)](https://www.alitrip.com/) mobile and web apps under the [Alibaba Group](https://en.wikipedia.org/wiki/Alibaba_Group), found and lead front-end infrastructure team at an unicorn startup company [Beijing Weiying (a.k.a. WePiao, now acquired by Maoyan)](https://www.crunchbase.com/organization/beijing-weiying-technology), and helped [Ele.me (now acquired by Alibaba)](https://en.wikipedia.org/wiki/Ele.me) to upgrade their mobile web site into [the first influential PWA (progressive web app) in China](https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509).
+## INTERESTED IN
 
-I studied BA, Digital Media Art at [Communication University of China](https://en.wikipedia.org/wiki/Communication_University_of_China) and MS, Computer Science (with a focus on programming languages) at [Rochester Institute of Technology](https://en.wikipedia.org/wiki/Rochester_Institute_of_Technology).
+<div style="display:flex; justify-content:center; align-items:center; margin-bottom:6px;">
+<img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>&nbsp; 
+<img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/typescript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/styledcomponents-DB7093?style=flat-square&logo=styled-components&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=React&logoColor=white"/>&nbsp; 
+<img src="https://img.shields.io/badge/redux-764ABC?style=flat-square&logo=Redux&logoColor=white"/>&nbsp; 
+</div>
+<div style="display:flex; justify-content:center; align-items:center;">
+<img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=Python&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/flask-000000?style=flat-square&logo=Flask&logoColor=white"/>&nbsp; 
+<img src="https://img.shields.io/badge/mysql-4479A1?style=flat-square&logo=mysql&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/aws-232F3E?style=flat-square&logo=amazon-aws&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/firebase-FFCA28?style=flat-square&logo=firebase&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"/>&nbsp;
+</div>
 
-##### [My PL Spectrum (WIP 🚧)](https://huangxuan.me/2020/05/05/pl-chart/)
 
-I made a chart to visualize my experiences and interests on some of the programming languages. I know. I know this is always contraversial. But it's just something quite self-entertaining to do. So bare with me and have fun reading that!
+## CAREER <span style="font-size:10px;">&nbsp;&nbsp; sorted by date descending</span>
 
-##### Appearence
 
-- [Upgrading to Progressive Web Apps][9] · [JSConf China Shanghai 2017](http://2017.jsconf.cn/)
-- Building Progressive Web Apps · [CSDI Guangzhou 2017](http://www.csdisummit.com/)
-- The State of Progressive Web App · GDG IO Redux Beijing 2017
-- PWA Rehashing · Baidu HQ Beijing 2017
-- [Service Worker 101][5] · GDG DevFest Beijing 2016
-- [Progressive Web Apps][4] · QCon Shanghai 2016
-- Progressive Web App in my POV · GDG IO Redux Beijing 2016
-- [CSS Still Sucks 2015][2] · 2015
-- [JavaScript Modularization Journey][1] · 2015
+| COMPANY     |         PERIOD          | POSITION  |                     ROLE |
+| :---------- | :--------------------- | :-------: | -----------------------: |
+| NEXON KOREA |    2021.01.11 ~ ING     | ASSOCIATE | WEB APPLICATION ENGINEER |
+| DEFINE, Inc.  | 2020.09.01 ~ 2020.12.31 |  INTERN   |  CROSS PLATFORM ENGINEER |
 
-[1]: //huangxuan.me/2015/07/09/js-module-7day/
-[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
-[3]: //huangxuan.me/2016/06/05/pwa-in-my-pov/
-[4]: //huangxuan.me/2016/10/20/pwa-qcon2016/
-[5]: //huangxuan.me/2016/11/20/sw-101-gdgdf/
-[6]: https://yanshuo.io/assets/player/?deck=58ac8598b123db0067292f92 "PWA Rehashing"
-[7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
-[8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
-[9]: //huangxuan.me/jsconfcn2017/
+
+## PROJECTs <span style="font-size:10px;">&nbsp;&nbsp; sorted by date descending</span>
+
+| NAME & LINK                                                                                |         COMPANY         |  USED TECH STACK  |    비고 |
+| :----------------------------------------------------------------------------------------- | :--------------------- | :--------------- | ------: |
+| [개인정보 찾기](https://www.notion.so/React-React-Native-95d5ec5cbfe14e3ea57ecfa26cd9517b) |       DEFINE, Inc.        |   REACT NATIVE    |       - |
+| [KHUST DANCE](https://www.notion.so/React-KHUST-DANCE-1ab835be7d8947cfaa4d8d299acf7594)    |   Hackerthon / Kyung-Hee Univ.     |  REACT, Firebase  | 🏆 1st prize |
+| [창고 찜하기](https://www.notion.so/React-Native-0594e28143c34770aeb729888af41f1d)         |       DEFINE, Inc.        |   REACT NATIVE    |       - |
+| [채팅](https://www.notion.so/React-Native-972d858fdce241749cc828c4124b33b9)                |       DEFINE, Inc.        |   REACT NATIVE    |       - |
+| [회원 가입 앱](https://www.notion.so/React-Native-8a286cd67e824012b7043de71360fb77)        |       DEFINE, Inc.        |   REACT NATIVE    |       - |
+| [창고 등록 앱](https://www.notion.so/React-Native-35ec497480de492b99c878468b30ecf1)        |       DEFINE, Inc.        |   REACT NATIVE    |       - |
+| [비대면 체력측정 서비스](https://www.notion.so/React-100-c1765134086240b79fe617c50126ad10) | Competition / NATIONAL FITNESS AWARD |  REACT, Firebase  | 🏆 1st prize |
+| [어드민 페이지](https://www.notion.so/React-428ad74f5b20494dbee074dead061487)              |       DEFINE, Inc.        |       REACT       |       - |
+| [회원 가입 웹](https://www.notion.so/React-d75e54ebcc2543be8fa7599df890d43a)               |       DEFINE, Inc.        |       REACT       |       - |
+| [창고 등록 웹](https://www.notion.so/React-b16b2668ddbd4c3dab06099508f05150)               |       DEFINE, Inc.        |       REACT       |       - |
+| [코로나 지수 알리미](https://www.notion.so/React-Ts-981fe2646dc94461aa5534d58f20ddf9)      |    Hackerthon / KOREAN GOVERMENT    | REACT, Typescript |       - |
