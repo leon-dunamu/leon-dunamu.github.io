@@ -78,7 +78,7 @@ netease_comment: false
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Kyung-Hee Univ. <br> Web Front-end Engineer in NEXON KOREA"
-sidebar-avatar: /img/seog.png    # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/profile/seog.png    # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
