@@ -7,6 +7,7 @@ header-style: text
 tags: 
   - Typescript
   - Webpack
+  - Frontend
 ---
 
 

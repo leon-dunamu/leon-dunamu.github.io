@@ -8,6 +8,7 @@ tags:
   - Typescript
   - Webpack
   - ThreeJS
+  - Frontend
 ---
 
 ## Typescript + WebGL 목차
