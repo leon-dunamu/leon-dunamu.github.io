@@ -1,3 +1,13 @@
+---
+layout: post
+subtitle: "SPA 발전 과정"
+title: "SPA가 왜 나왔을까?"
+author: "Seog"
+header-style: text
+tags: 
+  - Frontend
+---
+
 # SPA 발전 과정 및 원리
 
 link tag를 사용하는 전통적인 웹 방식은 새로운 페이지 요청 시마다 정적 리소스가 다운로드되고 전체 페이지를 다시 렌더링하는 방식을 사용하므로 새로고침이 발생되어 사용성이 좋지 않다. 그리고 변경이 필요없는 부분를 포함하여 전체 페이지를 갱신하므로 비효율적이다.
