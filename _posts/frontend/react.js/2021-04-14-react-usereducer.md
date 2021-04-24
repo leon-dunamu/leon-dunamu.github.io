@@ -113,5 +113,4 @@ const [state, dispatch] = React.useReducer(reducer, initialState);
 
 예를 들어서 컴포넌트에서 관리하는 값이 딱 하나고, 그 값이 단순한 숫자, 문자열 또는 boolean 값이라면 확실히 `useState` 로 관리하는게 편할 것이다.
 
-const [value, setValue] = useState(true);
 하지만, 만약에 컴포넌트에서 관리하는 값이 `여러개가 되어서 상태의 구조가 복잡`해진다면 `useReducer로` 관리하는 것이 편해질 수도 있다.
