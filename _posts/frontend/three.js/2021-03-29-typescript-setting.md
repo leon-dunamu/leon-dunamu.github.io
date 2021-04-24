@@ -14,7 +14,7 @@ tags:
 ## Typescript + WebGL 목차
 
 <span style="background-color:skyblue;">1. gts, webpack으로 vanilla Typescript 세팅하기</span><br/>
-<a href="https://goeslog.github.io/frontend/2021/03/30/webgl-basic.html">2. WebGL 기초 알아보기 (1) - 다운로드 및 사용</a>
+<a href="https://1seok2.github.io/2021/03/30/webgl-basic/>2. WebGL 기초 알아보기 (1) - 다운로드 및 사용</a>
 
 
 # Typescript + WebGL (1) 
