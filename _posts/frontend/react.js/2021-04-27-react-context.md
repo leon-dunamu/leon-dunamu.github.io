@@ -25,7 +25,7 @@ React의 상위에서 하위로의 일방적인(?) 상태 전달로 인해 prop 
 
 다음은 prop drilling의 간단한 예시이다.
 
-```javascript
+```jsx
 const Toggle = () => {
   const [on, setOn] = React.useState(false)
   const toggle = () => setOn(o => !o)
@@ -66,7 +66,7 @@ Context API는 러닝 커브가 상당히 낮다고 생각한다. 단순한 개�
 
 ### 1. Context 생성하기
 
-```javascript
+```jsx
 /* LoginContext.js */
 import React from 'react';
 
@@ -80,7 +80,7 @@ export const LoginContext = React.createContext(defaultValue);
 
 ### 2. Context 제공하기
 
-```javascript
+```jsx
 import React from 'react';
 import { defaultValue, LoginContext } from './LoginContext';
 import Router from './Router';
@@ -122,7 +122,7 @@ React는 Provider의 value 부분을 내가 적용한 예제와 같이 부모의
 
 ### 3. Context value 사용하기
 
-```javascript
+```jsx
 import React from 'react'
 import { LoginContext } from './LoginContext';
 
@@ -134,7 +134,7 @@ export const Main = () => <LoginContext.Consumer>
 혹은
 
 
-```javascript
+```jsx
 import React from 'react'
 import { LoginContext } from './LoginContext';
 
