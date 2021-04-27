@@ -1,6 +1,6 @@
 ---
-title: "React Hooks 만들어 사용하기"
-subtitle: "custom hooks를 사용하여 코드 재사용하기"
+title: "React Context API 사용하기"
+subtitle: "Context API란 ?!"
 layout: post
 author: "Seog"
 header-style: text
