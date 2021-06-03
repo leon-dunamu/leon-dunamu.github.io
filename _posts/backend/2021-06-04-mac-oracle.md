@@ -43,3 +43,21 @@ hdiutil unmount /Volumes/instantclient-basic-macos.x64-19.8.0.0.0dbru
 ```
 
 이로써 끝.
+
+## 혹시 flask를 사용하시나요 ..?
+
+그렇다면 `pip3 install cx-Oracle`을 하셨겠군요.
+
+이번 포스트의 파일들을 잘 다운 받았으면 아래 또한 적용해줘야합니다.
+다만 한번 적용해주면 됩니다!
+(매 connection/close마다 적용할 필요 없음)
+
+```python
+import cx_Oracle
+
+cx_Oracle.init_oracle_client(lib_dir="/Users/{user_name}/Downloads/instantclient_19_8")
+```
+
+`{user_name}`에는 자신의 PC 네임이 들어가야합니다.
+
+모르겠다면 터미널에서 `pwd`를 이용하여 확인하십숑
