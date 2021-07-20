@@ -11,7 +11,7 @@ tags:
 
 리액트를 사용하다보면 하위 컴포넌트에 Props를 넘겨줘야하는 일이 생긴다
 
-하지만 기능을 추가하다보면 너무 많은 Props로 고통받기 쉽상이다
+하지만 기능을 추가하다보면 너무 많은 Props로 고통받기 십상이다
 
 ```jsx
 <Survey 
@@ -72,9 +72,9 @@ const App = () => {
     <Survey.Title title='설문조사' />
     <Survey.Descruotion description='설문조사 해주세요' />
     <Survey.Question title='물음 1.'>
-      <Survey.Answer title='답 1' />
-      <Survey.Answer title='답 2' />
-      <Survey.Answer title='답 3' />
+      <Survey.Answer value='답 1' />
+      <Survey.Answer value='답 2' />
+      <Survey.Answer value='답 3' />
     </Survey.Question>
     <Survey.Title title='설문조사' />
   <Survey>
