@@ -1,7 +1,7 @@
 ---
 layout: post
-subtitle: "HTTP vs HTTPS"
-title: "frontend 면접 대비 HTTP, HTTPS 비교"
+subtitle: "HTTP vs HTTPS, versions"
+title: "frontend 면접 대비 HTTP, HTTPS, 버전 비교"
 author: "Seog"
 header-style: text
 tags: 
@@ -97,3 +97,18 @@ tags:
 
 - SSL은 서버와 브라우저 사이에 안전하게 암호화된 연결을 만들 수 있게 도와주고, 서버 브라우저가 민감한 정보를 주고받을 때 이것이 도난당하는 것을 막아줌
 - TLS(전송 계층 보안) 프로토콜을 통해서도 보안을 유지함. TSL은 데이터 무결성을 제공하기 때문에 데이터가 전송 중에 수정되거나 손상되는 것을 방지하며, 사용자가 자신이 의도하는 웹사이트와 통신하고 있음을 입증하는 인증 기능도 제공함.
+
+## HTTP/1.1
+
+- Keep alive가 default (1.0은 기본이 아님)
+- 하나의 요청에 하나의 리소스 받음
+- 파이프라이닝을 지원하여 병렬적 처리를 진행할 수 있지만 Head Of Line Blocking으로 일찍 끝난 요청이 지연되는 현상이 발생됨
+
+## HTTP/2
+
+- 1.x와 결정적으로 속도의 차이
+- 하나의 요청에 여러 리소스를 병렬적으로 받을 수 있음
+- 요청한 리소스간의 우선순위를 설정할 수 있음
+- Server Push가능
+    - HTML에 필요한 리소스 파일을 알아서 서버에서 전송해줌
+- header 정보 압축
