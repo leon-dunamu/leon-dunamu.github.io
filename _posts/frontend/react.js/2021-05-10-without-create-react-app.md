@@ -4,12 +4,12 @@ subtitle: "Use your custom App without CRA! Do not use CRA anymore. Support Type
 layout: post
 author: "Seog"
 header-style: text
-tags: 
+tags:
   - Frontend
   - React.js
 ---
 
-Hi. 
+Hi.
 
 I have enjoyed using CRA(create-react-app).
 
@@ -21,31 +21,34 @@ However, as the development progresses, there is a desire to build an app with y
 
 The package I am introducing from now on is suitable for these people.
 
-* Those who want to graduate from `CRA`! CRA를 졸업하고 싶은 사람!
-* Those who `bother` to set the basics every time! 매번 기본 설정을 하기 귀찮은 사람!
-* Those who want to `quickly` apply their own settings! 빠르게 자신만의 설정을 적용하고 싶은 사람!
+- Those who want to graduate from `CRA`! CRA를 졸업하고 싶은 사람!
+- Those who `bother` to set the basics every time! 매번 기본 설정을 하기 귀찮은 사람!
+- Those who want to `quickly` apply their own settings! 빠르게 자신만의 설정을 적용하고 싶은 사람!
 
 ## 👉 WITHOUT CRA
 
 CRA없이 패키지 다운로드 받기
 
-* [Start react with javascript github repository](https://github.com/1Seok2/no-create-react-app)
+- [Start react with javascript github repository](https://github.com/leon-dunamu/no-create-react-app)
 
-* [Start react with typescript github repository](https://github.com/1Seok2/no-create-react-typescript-app) 
+- [Start react with typescript github repository](https://github.com/leon-dunamu/no-create-react-typescript-app)
 
 ## 🙋🏻‍♂️ Quickly Start
 
 with js:
+
 ```bash
-$ git clone https://github.com/1Seok2/no-create-react-app.git <YOUR_PROJECT_NAME>
+$ git clone https://github.com/leon-dunamu/no-create-react-app.git <YOUR_PROJECT_NAME>
 ```
 
 with ts:
+
 ```bash
-$ git clone https://github.com/1Seok2/no-create-react-typescript-app.git <YOUR_PROJECT_NAME>
+$ git clone https://github.com/leon-dunamu/no-create-react-typescript-app.git <YOUR_PROJECT_NAME>
 ```
 
 after cloning:
+
 ```bash
 $ cd <YOUR_PROJECT_NAME>
 $ npm install
@@ -54,6 +57,7 @@ $ npm run start
 ```
 
 additionally set git for your repo:
+
 ```bash
 $ git init
 $ git add .
@@ -63,6 +67,7 @@ $ git push -u origin master
 ```
 
 result:
+
 ```text
 ├─[PROJECT_NAME]
 │  ├─public
@@ -84,16 +89,16 @@ result:
 
 From now on, I will introduce the apps that I have basically built.
 
-* This app has `webpack` and `babel` configured by default.
-* It also includes information on `prettier`.
-* There is also a package for `typescript`.
-* I set it up to support `HMR(react-hot-loader)`.
-* The `built` file was made to exist in the `dist` folder.
-* The `absolute path` was also applied.
+- This app has `webpack` and `babel` configured by default.
+- It also includes information on `prettier`.
+- There is also a package for `typescript`.
+- I set it up to support `HMR(react-hot-loader)`.
+- The `built` file was made to exist in the `dist` folder.
+- The `absolute path` was also applied.
 
 ## 🤷🏻‍♂️ So what's different from CRA?
 
-Even when I `ejected` the `CRA`, it was difficult to reconfigure the settings. 
+Even when I `ejected` the `CRA`, it was difficult to reconfigure the settings.
 This package is `raw`, so you can add individual settings for each, and at the same time, it already includes basic settings so you can start developing quickly.
 
 그래서 CRA랑 다른 점이 무엇이냐고?

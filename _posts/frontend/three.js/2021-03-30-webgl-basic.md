@@ -4,7 +4,7 @@ subtitle: "WebGL 기초 (1)"
 layout: post
 author: "Seog"
 header-style: text
-tags: 
+tags:
   - Typescript
   - Webpack
   - ThreeJS
@@ -13,13 +13,12 @@ tags:
 
 ## Typescript + WebGL 목차
 
-<a href="https://1seok2.github.io/2021/03/29/typescript-setting/">1. gts, webpack으로 vanilla Typescript 세팅하기</a><br/>
+<a href="https://leon-dunamu.github.io/2021/03/29/typescript-setting/">1. gts, webpack으로 vanilla Typescript 세팅하기</a><br/>
 <span style="background-color:skyblue;">2. WebGL 기초 알아보기 (1) - 다운로드 및 사용</span>
 
 <br/>
 
-
-# Typescript + WebGL (2) 
+# Typescript + WebGL (2)
 
 ### WebGL 기초 알아보기 (1) - 다운로드 및 사용
 
@@ -37,14 +36,13 @@ npm install --save three
 ```javascript
 ///////////////////////////////////////////////////////
 // Option 1: Import the entire three.js core library.
-import * as THREE from 'three';
+import * as THREE from "three";
 
 const scene = new THREE.Scene();
 
-
 ///////////////////////////////////////////////////////
 // Option 2: Import just the parts you need.
-import { Scene } from 'three';
+import { Scene } from "three";
 
 const scene = new Scene();
 ```
@@ -54,7 +52,7 @@ const scene = new Scene();
 하지만 다음과 같이 <span style="background-color:#eaeaea;">CDN</span>을 통해 사용할 수도 있다
 
 ```javascript
-import * as THREE from 'https://unpkg.com/three@<version>/build/three.module.js';
+import * as THREE from "https://unpkg.com/three@<version>/build/three.module.js";
 
 const scene = new THREE.Scene();
 ```
@@ -65,16 +63,15 @@ const scene = new THREE.Scene();
 각자 <span style="background-color:#eaeaea;">three.js</span>를 설치한 방법을 토대로 사용하면 된다.
 
 ```javascript
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 
 const controls = new OrbitControls();
 
 // Find the latest version by visiting https://unpkg.com/three.
-import { OrbitControls } from 'https://unpkg.com/three@<version>/examples/jsm/controls/OrbitControls.js';
+import { OrbitControls } from "https://unpkg.com/three@<version>/examples/jsm/controls/OrbitControls.js";
 
 const controls = new OrbitControls();
 ```
-
 
 <span style="background-color: ;">
 </span>
