@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: http://leon-dunammu.github.io/sitemap.xml
