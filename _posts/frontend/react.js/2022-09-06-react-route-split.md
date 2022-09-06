@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: "React.lazy를 활용한 초기 로딩 속도 개선"
+subtitle: "동적 Import를 활용한 초기 로딩 속도 개선"
 title: "리액트 Route를 Code Splitting으로 개선하기"
 author: "Seog"
 header-style: text
@@ -239,8 +239,6 @@ const App: React.FC = () => {
               ) : null
             })}
             {modifyPages.map(route => {
-              if (!route.roles.includes(role)) return null
-
               return (
                 <Route
                   key={route.path}
